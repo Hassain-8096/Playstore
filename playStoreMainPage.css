@@ -1,0 +1,33 @@
+.app-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.app-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.tab-button {
+    /* Other styles for your button */
+    padding: 10px 20px; /* Example padding */
+    border: none; /* Example: remove default border */
+    background-color: #f0f0f0; /* Example background color */
+    cursor: pointer; /* Indicate it's clickable */
+  
+    /* Styles to make it round */
+    border-radius: 50%;
+    width: 50px; /* Set a fixed width and height to make it a perfect circle */
+    height: 50px;
+    display: flex; /* Use flexbox to center the text inside */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Also center text horizontally */
+  }
